@@ -1,0 +1,36 @@
+@import './utils';
+@import './fonts';
+@import './typography';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  @extend %text-main;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: $c-white;
+  color: $c-black;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+input:focus,
+textarea:focus {
+  border: 1px solid rgb(42, 245, 103);
+  outline: none;
+}
+
+a {
+  color: inherit;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+@import './components';

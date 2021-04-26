@@ -1,0 +1,10 @@
+.navigation-header {
+  position: relative;
+  display: flex;
+  padding: 40px 56px;
+  justify-content: space-between;
+  
+  &::before {
+    @extend %header-bc-color;
+  }
+}

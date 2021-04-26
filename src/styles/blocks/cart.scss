@@ -1,0 +1,25 @@
+.cart {
+  position: relative;
+  
+  width: 22px;
+  height: 22px;
+
+  transition: transform .35s ease-in;
+
+  &:hover {
+    transform: scale(1.3);
+  }
+
+  &::after {
+    position: absolute;
+    bottom: 9px;
+    left: 8px;
+    width: 15px;
+    height: 15px;
+
+    content: " ";
+    background: no-repeat url("/images/group_246.svg");
+    background-size: contain;
+    background-position: center;
+  }
+}

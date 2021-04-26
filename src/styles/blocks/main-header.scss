@@ -1,0 +1,7 @@
+.main-header {
+  position: relative;
+  
+  &::after {
+    @extend %header-bc-color;
+  }
+}
