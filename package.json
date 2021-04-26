@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anastasiiaAliinyk/vanilla-template.git"
+    "url": "git+https://github.com/anastasiiaAliinyk/coffee-face.git"
   },
   "keywords": [
     "template",
@@ -31,9 +31,9 @@
   "author": "anastasiiaAliinyk",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/anastasiiaAliinyk/vanilla-template/issues"
+    "url": "https://github.com/anastasiiaAliinyk/coffee-face/issues"
   },
-  "homepage": "https://github.com/anastasiiaAliinyk/vanilla-template#readme",
+  "homepage": "https://github.com/anastasiiaAliinyk/coffee-face#readme",
   "targets": {
     "default": {
       "distDir": "dist"

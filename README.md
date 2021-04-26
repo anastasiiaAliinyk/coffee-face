@@ -1,7 +1,7 @@
 # vanilla-template
 Tamplate for frontend projects
 
-- [DEMO LINK](https://anastasiiaaliinyk.github.io/vanilla-template/)
+- [DEMO LINK](https://anastasiiaaliinyk.github.io/coffee-face/)
 
 ## Local development
 ### Installing
