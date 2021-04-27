@@ -1,7 +1,14 @@
 .main-header {
   position: relative;
-  
+  display: flex;
+
   &::after {
     @extend %header-bc-color;
+  }
+
+  &__image {
+    width: 62.5%;
+    object-fit: contain;
+    object-position: center;
   }
 }
