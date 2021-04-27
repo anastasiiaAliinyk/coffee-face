@@ -7,6 +7,7 @@
   transition: transform .35s ease-in;
 
   &:hover {
+    cursor: pointer;
     transform: scale(1.3);
   }
 

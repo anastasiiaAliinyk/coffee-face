@@ -1,0 +1,10 @@
+.image {
+  position: relative;
+  width: max-content;
+
+  &__content {
+    @extend %center-absolute;
+    top: 50%;
+    bottom: 50%;
+  }
+}

@@ -17,6 +17,14 @@
   left: 0;
   opacity: 0.2;
   position: absolute;
+  top: 0;
   width: 100%;
   z-index: -1;
 } 
+
+%center-absolute {
+  left: 50%;
+  position: absolute;
+  right: 50%;
+  transform: translate(-50%, -50%);
+}

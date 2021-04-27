@@ -24,10 +24,11 @@
     font-weight: 400;
     color: $c-white;
     background-color: $c-black;
+    cursor: pointer;
 
     &:hover {
       background-color: rgb(51, 49, 49);
-      border: 1px solid rgb(113, 200, 250);
+      border: 2px solid rgb(247, 170, 230);
     }
   }
 }

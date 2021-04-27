@@ -1,0 +1,14 @@
+.info {
+  position: relative;
+  padding: 140px 0 130px 11.95%;
+  background-color: $c-black;
+
+  &__image {
+    position: absolute;
+    width: 36%;
+    top: 0;
+    bottom: 0;
+    right: 12%;
+    margin: auto;
+  }
+}
