@@ -1,0 +1,15 @@
+.rating {
+  display: flex;
+  align-items: center;
+
+  &__star {
+    background: url('images/star.png') no-repeat 50%;
+    height: 17px;
+    margin-right: 4px;
+    width: 17px;
+
+    &--active {
+      background: url('images/active-star.png') no-repeat 50%;
+    }
+  }
+}

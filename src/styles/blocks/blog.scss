@@ -1,0 +1,18 @@
+.blog {
+  position: relative;
+  padding: 350px 0 290px;
+  text-align: center;
+  color: $c-white;
+  background-color: $c-black;
+
+  &__title {
+    font-size: 40px;
+    font-weight: 200;
+  }
+
+  &__image {
+    position: absolute;
+    @extend %center-absolute ;
+    top: 0;
+  }
+}

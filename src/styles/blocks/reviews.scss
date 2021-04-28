@@ -1,0 +1,9 @@
+.reviews {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+
+  &__rating {
+    margin-left: 10px;
+  }
+}

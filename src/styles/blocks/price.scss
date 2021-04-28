@@ -1,0 +1,29 @@
+.price {
+  display: flex;
+  justify-content: center;
+
+  &__old {
+    position: relative;
+    margin-right: 10px;
+    font-size: 20px;
+    opacity: 0.5;
+
+    &::after {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      
+      margin: auto;
+      content: ' ';
+      width: 70px;
+      height: 1px;
+      background-color: $c-black;
+    }
+  }
+
+  &__new {
+    font-size: 30px;
+  }
+}

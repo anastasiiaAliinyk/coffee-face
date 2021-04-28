@@ -1,0 +1,13 @@
+.blog-content {
+  position: absolute;
+  left: 50%;
+  top: 425px;
+  display: flex;
+
+  text-align: start;
+  transform: translate(-50%);
+
+  &__blog-content-item {
+    margin-right: 12px;
+  }
+}

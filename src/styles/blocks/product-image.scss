@@ -1,0 +1,10 @@
+.product-image {
+  width: 49%;
+  background: no-repeat url('images/group-product.png');
+  background-size: cover;
+  background-position: 50%;
+
+  &__main {
+    width: 100%;
+  }
+}
