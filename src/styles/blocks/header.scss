@@ -1,5 +1,9 @@
 .header {
   &__header-text {
     margin-left: -40px;
+
+    @include screen-m {
+      margin-left: 0;
+    }
   }
 }

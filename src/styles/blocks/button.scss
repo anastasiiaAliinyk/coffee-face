@@ -9,6 +9,10 @@
   background-color: $c-black;
   cursor: pointer;
 
+  @include screen-s {
+    width: 100%;
+  }
+
   &:hover {
     background-color: rgb(51, 49, 49);
     border: 2px solid rgb(247, 170, 230);

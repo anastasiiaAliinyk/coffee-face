@@ -1,0 +1,13 @@
+.testimonials-wraper {
+  display: flex;
+  justify-content: center;
+  overflow-x: auto;
+
+  &__testimonials-item {
+    margin-right: 132px;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+}

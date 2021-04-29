@@ -1,0 +1,34 @@
+.instagram {
+  position: relative;
+  padding: 113px 50px 52px;
+  text-align: center;
+
+  &__title {
+    margin-bottom: 64px;
+    font-size: 40px;
+    font-weight: 200;
+    text-transform: uppercase;
+  }
+
+  &__prev-button, &__next-button {
+    position: absolute;
+    bottom: 45%;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &__prev-button {
+    left: 15px;
+  }
+
+  &__next-button {
+    right: 15px;
+  }
+
+  &__gallery-wrapper {
+    overflow-x: auto;
+    margin-bottom: 75px;
+  }
+}

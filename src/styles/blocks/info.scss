@@ -3,6 +3,12 @@
   padding: 140px 0 130px 11.95%;
   background-color: $c-black;
 
+  @include screen-m {
+    display: flex;
+    justify-content: center;
+    padding: 405px 20px 62px;
+  }
+
   &__image {
     position: absolute;
     width: 36%;
@@ -10,5 +16,12 @@
     bottom: 0;
     right: 11%;
     margin: auto;
+
+    @include screen-m {
+      min-width: 335px;
+      right: 0;
+      left: 0;
+      bottom: 320px;
+    }
   }
 }

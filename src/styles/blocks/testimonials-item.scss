@@ -1,0 +1,18 @@
+.testimonials-item {
+  min-width: 650px;
+
+  &__title {
+    margin-bottom: 21px;
+    font-size: 22px;
+    font-weight: 500;
+  }
+
+  &__image {
+    margin-bottom: 10px;
+  }
+
+  &__text {
+    font-size: 18px;
+    line-height: 30.5px;
+  }
+}

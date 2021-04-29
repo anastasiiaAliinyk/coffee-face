@@ -2,6 +2,37 @@
   position: relative;
   display: flex;
 
+  @include screen-m {
+    position: relative;
+    padding: 350px 32px 80px;
+    background: no-repeat url('images/1.png') 50%;
+    background-size: cover;
+    justify-content: center;
+  }
+
+  @include screen-s {
+    // padding-top: 200px;
+    // background-size: cover;
+    // background: no-repeat url('images/bc2.png') 50%;
+  }
+
+  &__small-screen-bc {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      display: none;
+
+      content: '';
+      background: linear-gradient(2.76deg, #FDFAF8 11.68%, rgba(255, 255, 255, 0) 80.51%);
+      transform: matrix(-1, 0, 0, 1, 0, 0);
+
+      @include screen-m {
+        display: block;
+      }
+  }
+
   &::after {
     @extend %header-bc-color;
   }
@@ -10,5 +41,9 @@
     width: 62.5%;
     object-fit: contain;
     object-position: center;
+
+    @include screen-m {
+      display: none;
+    }
   }
 }

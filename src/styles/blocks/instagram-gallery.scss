@@ -1,0 +1,12 @@
+.instagram-gallery {
+  display: flex;
+  justify-content: center;
+
+  &__image {
+    margin-right: 8px;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+}

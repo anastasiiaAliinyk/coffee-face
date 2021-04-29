@@ -11,6 +11,10 @@
     &:focus {
       border: 1px solid rgb(238, 102, 192);
     }
+
+    @include screen-m {
+      width: 100%;
+    }
   }
 
   &__submit {
@@ -23,7 +27,13 @@
     background-color: $c-black;
 
     &:hover {
+      cursor: pointer;
       background-color: rgb(51, 49, 49);
+    }
+
+    @include screen-m {
+      width: 100%;
+      margin: 20px 0;
     }
   }
 }

@@ -6,15 +6,13 @@
 }
 
 %header-bc-color {
-  background: linear-gradient(101.72deg, 
-  rgba(250, 178, 152, 0.48),
-  rgba(244, 222, 214, 1),
-  rgba(248, 234, 229, 1),
-  rgba(255, 255, 255, 0)
-  101.84%);
+  background: linear-gradient(101.72deg, rgba(250, 178, 152, 0.48) 4.77%, #f4ded6 28.36%, #f8eae5 88.9%, rgba(255, 255, 255, 0) 101.84%);
   content: ' ';
   height: 100%;
   left: 0;
+  opacity: 0.2;
+  
+  transform: matrix(-1, 0, 0, 1, 0, 0);
   opacity: 0.2;
   position: absolute;
   top: 0;
