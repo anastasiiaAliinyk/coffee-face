@@ -5,14 +5,34 @@
   color: $c-white;
   background-color: $c-black;
 
+  @include screen-s {
+    padding: 138px 0 184px;
+  }
+
+  @include screen-m {
+    padding-top: 35%;
+  }
+
   &__title {
     font-size: 40px;
     font-weight: 200;
+
+    @include screen-s {
+      font-size: 30px;
+    }
   }
 
   &__image {
-    position: absolute;
     @extend %center-absolute ;
     top: 30px;
+
+    @include screen-m {
+      width: 90%;
+    }
+
+    @include screen-s {
+      top: 5px;
+      max-width: 320px;
+    }
   }
 }

@@ -2,9 +2,21 @@
   padding: 90px 0 280px;
   text-align: center;
 
+  @include screen-m {
+    padding: 90px 20px 25%;
+  }
+
+  @include screen-s {
+    padding: 57px 20px 143px;
+  }
+
   &__title {
-    margin-bottom: 27px;
+    margin-bottom: 28px;
     font-size: 40px;
     font-weight: 200;
+
+    @include screen-s {
+      font-size: 30px;
+    }
   }
 }

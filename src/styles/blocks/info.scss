@@ -6,7 +6,11 @@
   @include screen-m {
     display: flex;
     justify-content: center;
-    padding: 405px 20px 62px;
+    padding: 505px 20px 62px;
+  }
+
+  @include screen-s {
+    padding-top: 405px;
   }
 
   &__image {
@@ -18,10 +22,14 @@
     margin: auto;
 
     @include screen-m {
-      min-width: 335px;
+      min-width: 450px;
       right: 0;
       left: 0;
       bottom: 320px;
+    }
+
+    @include screen-s {
+      min-width: 335px;
     }
   }
 }

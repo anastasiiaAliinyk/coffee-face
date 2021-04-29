@@ -4,6 +4,10 @@
   line-height: 29px;
   color: $c-black;
 
+  @include screen-m {
+    max-width: 295px;
+  }
+
   &__image {
     position: relative;
     display: block;

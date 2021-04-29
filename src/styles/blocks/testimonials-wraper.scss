@@ -9,5 +9,9 @@
     &:last-of-type {
       margin-right: 0;
     }
+
+    @include screen-s {
+      margin-right: 20px;
+    }
   }
 }

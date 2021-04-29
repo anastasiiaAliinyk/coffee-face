@@ -4,9 +4,15 @@
 
  @include screen-m {
   flex-direction: column;
+  padding: 0 20px;
 }
 
  &__about-product {
    margin: 12.5% 0 130px 5%;
+
+   @include screen-m {
+    flex-direction: column;
+    margin: 83px 0 0;
+  }
  }
 }

@@ -4,7 +4,17 @@
   background-size: cover;
   background-position: 50%;
 
+  @include screen-m {
+    align-self: center;
+    width: 95%;
+    order: 2;
+  }
+
   &__main {
     width: 100%;
+
+    @include screen-m {
+      margin-bottom: 36px;
+    }
   }
 }
