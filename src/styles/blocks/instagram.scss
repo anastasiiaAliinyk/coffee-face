@@ -3,16 +3,29 @@
   padding: 113px 50px 52px;
   text-align: center;
 
+  @include screen-s {
+    padding: 58px 20px;
+   }
+
   &__title {
     margin-bottom: 64px;
     font-size: 40px;
     font-weight: 200;
     text-transform: uppercase;
+
+    @include screen-s {
+      font-size: 30px;
+      margin-bottom: 30px;
+     }
   }
 
   &__prev-button, &__next-button {
     position: absolute;
     bottom: 45%;
+
+    @include screen-s {
+      display: none;
+     }
 
     &:hover {
       cursor: pointer;
@@ -30,5 +43,9 @@
   &__gallery-wrapper {
     overflow-x: auto;
     margin-bottom: 75px;
+
+    @include screen-s {
+      margin-bottom: 20px;
+     }
   }
 }

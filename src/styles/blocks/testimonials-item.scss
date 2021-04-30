@@ -12,7 +12,32 @@
   }
 
   &__image {
+    position: relative;
     margin-bottom: 10px;
+
+    &::before {
+      position: absolute;
+      left: -100px;
+      top: -40px;
+      width: 48px;
+      height: 32px;
+      content: ' ';
+      background: no-repeat url('images/testLeft.png') 50%;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    &::after {
+      position: absolute;
+      right: -100px;
+      top: -40px;
+      width: 48px;
+      height: 32px;
+      content: ' ';
+      background: no-repeat url('images/testRight.png') 50%;
+    }
   }
 
   &__text {

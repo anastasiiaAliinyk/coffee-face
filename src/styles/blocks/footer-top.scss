@@ -1,0 +1,10 @@
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+
+  &__logo {
+    @include screen-s {
+      display: none;
+    }
+  }
+}

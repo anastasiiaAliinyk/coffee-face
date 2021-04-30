@@ -1,0 +1,27 @@
+.cards {
+  display: flex;
+  justify-content: flex-end;
+  padding: 31px 0 41px;
+
+  @include screen-s {
+    justify-content: center;
+  }
+
+  &__card {
+    margin-right: 16px;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+
+  &__image {
+    transition: outline 0.5s linear;
+
+    &:hover {
+      cursor: pointer;
+      outline: 1px solid #8a5137;
+      
+    }
+  }
+}

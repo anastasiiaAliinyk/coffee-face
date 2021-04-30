@@ -1,0 +1,16 @@
+.social {
+  display: flex;
+  align-items: baseline;
+
+  &__link {
+    margin-right: 53px;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+
+    @include screen-s {
+      margin-right: 26px;
+    }
+  }
+}

@@ -21,4 +21,10 @@
     }
 
   }
+
+  &__logo {
+    @include screen-m {
+      display: none;
+    }
+  }
 }
