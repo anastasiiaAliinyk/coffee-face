@@ -2,4 +2,8 @@
   padding: 197px 0 60px;
   text-align: center;
   overflow-x: auto;
+
+  @include screen-s {
+   padding: 160px 0 0;
+  }
 }

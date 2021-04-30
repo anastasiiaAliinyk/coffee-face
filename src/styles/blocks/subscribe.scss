@@ -7,4 +7,21 @@
   background: no-repeat url('images/subscribe-bc.png');
   background-size: cover;
   background-position: center;
+
+  @include screen-m {
+    flex-direction: column;
+    padding: 53px 10% 0;
+   }
+
+   @include screen-s {
+    flex-direction: column;
+    padding: 53px 20px 0;
+   }
+
+   &__image {
+    @include screen-s {
+      width: 380px;
+      object-fit: contain;
+     }
+   }
 }

@@ -1,3 +1,15 @@
 .logo {
   cursor: pointer;
+
+  @include screen-m {
+    display: none;
+  }
+
+  &--small {
+    display: none;
+
+    @include screen-s {
+      display: block;
+    }
+  }
 }

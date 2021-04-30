@@ -9,9 +9,16 @@
 
   &__blog-content-item {
     margin-right: 12px;
+
+    @include screen-s {
+      margin-right: 8px;
+    }
   }
 
   @include screen-m {
-    padding-top: 35%;
+    top: 60%;
+    right: 0;
+    left: 10%;
+    transform: translate(0);
   }
 }

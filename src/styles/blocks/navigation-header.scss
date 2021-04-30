@@ -3,8 +3,22 @@
   display: flex;
   padding: 40px 56px;
   justify-content: space-between;
+
+  @include screen-m {
+    padding: 11px 20px 0;
+    align-items: baseline;
+  }
   
   &::before {
     @extend %header-bc-color;
+  }
+
+  &__menu {
+    display: none;
+
+    @include screen-m {
+      display: block;
+    }
+
   }
 }
