@@ -5,6 +5,10 @@
   &__search {
     display: none;
 
+    &:hover {
+      cursor: pointer;
+    }
+
     @include screen-m {
       display: block;
       margin-right: 22.5px;

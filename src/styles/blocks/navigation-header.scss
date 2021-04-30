@@ -16,6 +16,10 @@
   &__menu {
     display: none;
 
+    &:hover {
+      cursor: pointer;
+    }
+
     @include screen-m {
       display: block;
     }
